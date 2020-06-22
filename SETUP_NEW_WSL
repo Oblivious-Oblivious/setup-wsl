@@ -1,0 +1,29 @@
+#!/bin/sh
+
+cat << EOF > update
+#!/bin/sh
+
+apt-get update
+apt-get upgrade -y
+apt-get dist-upgrade -y
+apt-get clean
+apt-get autoremove -y
+apt-get autoclean -y
+apt-get clean
+EOF
+
+chmod 755 update
+./update
+
+apt-get install git -y
+apt-get install vim -y
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+dircolors -p | sed 's/;42/;01/' > ~/.dircolors
+source ~/.bashrc
+ln -s /mnt/c/Users/roott/Documents/C++/ C++
+cd C++
+./wsl_setup
+cd ..
+
+./update
