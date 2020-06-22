@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/cDataLib/cDataLib'
+let g:netrw_dirhist_9='/root/.vim'
+let g:netrw_dirhist_8='/mnt/c/Users/roott/Documents/C++/crystal/crystal_extension'
+let g:netrw_dirhist_7='/mnt/c/Users/roott/Documents/C++/crystal/crystal_extension/sample_ruby_extension_in_crystal/lib/sample_ruby_extension_in_crystal'
+let g:netrw_dirhist_6='/mnt/c/Users/roott/Documents/C++/crystal/crystal_to_ruby/sample_ruby_extension_in_crystal/lib/sample_ruby_extension_in_crystal'
+let g:netrw_dirhist_5='/mnt/c/Users/roott/Documents/C++/crystal/crystal_to_ruby/crystal_extension/crystal_lib/lib/clang/samples/c2cr'
+let g:netrw_dirhist_4='/mnt/c/Users/roott/Documents/C++/crystal/crspec/spec'
+let g:netrw_dirhist_3='/root/.vim'
+let g:netrw_dirhist_2='/root/.vim_runtime/sources_forked/ctrlp.vim/autoload/ctrlp'
+let g:netrw_dirhist_1='/root/.vim'
