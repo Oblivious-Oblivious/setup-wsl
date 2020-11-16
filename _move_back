@@ -1,3 +1,5 @@
 #!bin/sh
 
 cp -r ./.* ../
+rm -r setup-wsl
+rm _move_back
