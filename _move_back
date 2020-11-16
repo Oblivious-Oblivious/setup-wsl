@@ -1,5 +1,4 @@
 #!/bin/sh
 
 cp -r ./.* ../
-rm -r setup-wsl
-rm _move_back
+cd .. && rm -r setup-wsl && rm _move_back
