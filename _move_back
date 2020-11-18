@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cp -r ./.* ../
-cd .. && rm -r setup-wsl && rm random && rm SETUP_NEW_WSL && rm turnin && rm _move_back
+cd .. && rm -r setup-wsl && rm random && rm SETUP_NEW_WSL && rm turnin && rm update && rm _move_back
