@@ -11,52 +11,114 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\<end\>
+~MSle0~/:q
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1592854858,,"q"
-:wq
-|2,0,1592854277,,"wq"
 :q!
-|2,0,1592842267,,"q!"
-:w
-|2,0,1592438784,,"w"
-:set paste
-|2,0,1592437902,,"set paste"
-:qq
-|2,0,1592437539,,"qq"
+|2,0,1610558954,,"q!"
+:q
+|2,0,1610558950,,"q"
+:wq
+|2,0,1610550370,,"wq"
 :d
-|2,0,1592142216,,"d"
+|2,0,1610550365,,"d"
+:w
+|2,0,1610550362,,"w"
+::q
+|2,0,1609383698,,":q"
+:WQ
+|2,0,1609015948,,"WQ"
+:qall
+|2,0,1608489781,,"qall"
+:!
+|2,0,1608215659,,"!"
+:set paste
+|2,0,1608214484,,"set paste"
+:set pate
+|2,0,1608214287,,"set pate"
+:Wq
+|2,0,1607981206,,"Wq"
+:W
+|2,0,1607980780,,"W"
+:q;
+|2,0,1607652377,,"q;"
+:q'
+|2,0,1607029545,,"q'"
+:q:q
+|2,0,1606763860,,"q:q"
+:'<,'>q
+|2,0,1606345976,,"'<,'>q"
+:D
+|2,0,1606300410,,"D"
+:s
+|2,0,1606236042,,"s"
+:a
+|2,0,1605836940,,"a"
+:q@
+|2,0,1605735242,,"q@"
+:q!@
+|2,0,1605735239,,"q!@"
+:qw
+|2,0,1605274887,,"qw"
+:::wq
+|2,0,1605017672,,"::wq"
+:wqq
+|2,0,1604421106,,"wqq"
+:wq=
+|2,0,1603808648,,"wq="
+:qq
+|2,0,1603480979,,"qq"
+:Q
+|2,0,1603464547,,"Q"
+:we
+|2,0,1603310773,,"we"
+:cq
+|2,0,1602524358,,"cq"
+:!q
+|2,0,1602289618,,"!q"
+:eeqw
+|2,0,1601858923,,"eeqw"
+:q1
+|2,0,1601215239,,"q1"
+:dwq
+|2,0,1601084845,,"dwq"
+::w
+|2,0,1599698123,,":w"
+:"q
+|2,0,1599151109,,"\"q"
+:wq\
+|2,0,1598708953,,"wq\\"
+:ww
+|2,0,1596914107,,"ww"
+:e
+|2,0,1596403042,,"e"
+:q@!
+|2,0,1596373466,,"q@!"
+:tags
+|2,0,1596370962,,"tags"
+:tasgs
+|2,0,1596370960,,"tasgs"
+:N
+|2,0,1594485542,,"N"
+:n
+|2,0,1594485541,,"n"
+:wqw
+|2,0,1594213745,,"wqw"
+:c
+|2,0,1593779990,,"c"
 :Wwq
 |2,0,1592142110,,"Wwq"
-:WQ
-|2,0,1592066901,,"WQ"
-:Wq
-|2,0,1591956229,,"Wq"
-:W
-|2,0,1591917951,,"W"
 :qNSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];:q
 |2,0,1591897186,,"qNSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];:q"
 ::d
 |2,0,1591881898,,":d"
-:D
-|2,0,1591393628,,"D"
-::q
-|2,0,1590440387,,":q"
-:'<,'>q
-|2,0,1588638168,,"'<,'>q"
-:!
-|2,0,1588619132,,"!"
 :qc
 |2,0,1588614753,,"qc"
 :find hello.rb
 |2,0,1588612652,,"find hello.rb"
-:Q
-|2,0,1588612609,,"Q"
 :find 
 |2,0,1588612606,,"find "
 :find basic.vim
@@ -69,22 +131,86 @@ $
 |2,0,1588099213,,"r"
 :Gist
 |2,0,1588087132,,"Gist"
-:q1
-|2,0,1588087096,,"q1"
-:q!@
-|2,0,1588048045,,"q!@"
-:!q
-|2,0,1588047738,,"!q"
-:qall
-|2,0,1588045240,,"qall"
-:q:q
-|2,0,1587909161,,"q:q"
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1592375228,,"\\s\\+$"
+|2,1,1610550370,,"\\s\\+$"
 ? @$
-|2,1,1592072348,,"@$"
+|2,1,1608489795,,"@$"
+?/*
+|2,1,1608032398,47,"*"
+?/a
+|2,1,1607994863,47,"a"
+?/:q
+|2,1,1606522525,47,":q"
+?/get
+|2,1,1605753527,47,"get"
+? \<out_value\>
+|2,1,1604415289,,"\\<out_value\\>"
+? \<value\>
+|2,1,1604414477,,"\\<value\\>"
+?/strlen
+|2,1,1603663011,47,"strlen"
+? \<vector\>
+|2,1,1603661652,,"\\<vector\\>"
+?/dec
+|2,1,1602021297,47,"dec"
+?/import
+|2,1,1599923886,47,"import"
+?/fabs
+|2,1,1599737930,47,"fabs"
+?/INT_CONSTANT FLOAT_CONSTANT IDENTIFIER STRING RETURN
+|2,1,1596818117,47,"INT_CONSTANT FLOAT_CONSTANT IDENTIFIER STRING RETURN"
+?/yylex
+|2,1,1596641036,47,"yylex"
+?/descript
+|2,1,1596334267,47,"descript"
+?/__setup_to
+|2,1,1596334244,47,"__setup_to"
+?/decompr
+|2,1,1596223426,47,"decompr"
+?/               0);
+|2,1,1595895582,47,"               0);"
+?/                   draw, Point_draw,
+|2,1,1595597954,47,"                   draw, Point_draw,"
+?/                   ctor, Point_ctor,
+|2,1,1595597953,47,"                   ctor, Point_ctor,"
+?/                   sizeof(struct Point),
+|2,1,1595597952,47,"                   sizeof(struct Point),"
+?/                   Object,
+|2,1,1595597951,47,"                   Object,"
+?/                   "Point",
+|2,1,1595597950,47,"                   \"Point\","
+?/                   PointClass,
+|2,1,1595597949,47,"                   PointClass,"
+?/       Point = new(
+|2,1,1595597948,47,"       Point = new("
+?/   if(!Point)
+|2,1,1595597947,47,"   if(!Point)"
+?/                    0);
+|2,1,1595597946,47,"                    0);"
+?/                       ctor, PointClass_ctor,
+|2,1,1595597945,47,"                       ctor, PointClass_ctor,"
+?/                       "PointClass",
+|2,1,1595597944,47,"                       \"PointClass\","
+?/                       Class,
+|2,1,1595597943,47,"                       Class,"
+?/       PointClass = new(
+|2,1,1595597942,47,"       PointClass = new("
+?/   if(!PointClass)
+|2,1,1595597941,47,"   if(!PointClass)"
+?/initPoint(void) {
+|2,1,1595597940,47,"initPoint(void) {"
+?/string_ctor
+|2,1,1595009506,47,"string_ctor"
+?/object
+|2,1,1594765778,47,"object"
+?/_putchar
+|2,1,1594662552,47,"_putchar"
+?/ob
+|2,1,1593347035,47,"ob"
+? \<if\>
+|2,1,1593200612,,"\\<if\\>"
 ? \<end\>
 |2,1,1589039090,,"\\<end\\>"
 ? \<module\>
@@ -101,892 +227,973 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	    printf("Enter two numbers: ");
-|3,0,0,1,1,0,1592072348,"    printf(\"Enter two numbers: \");"
+"0	CHAR	0
+	w
+|3,0,0,0,1,0,1608489795,"w"
 "1	LINE	0
-	    printf("IUNDX %d\n\n", index);
-|3,0,1,1,1,0,1592142216,"    printf(\"IUNDX %d\\n\\n\", index);"
+	for k in range(1, 6):
+|3,0,1,1,1,0,1610550365,"for k in range(1, 6):"
 "2	LINE	0
-	    printf("sizeof(arr): %d", sizeof(arr));
-|3,0,2,1,1,0,1592142214,"    printf(\"sizeof(arr): %d\", sizeof(arr));"
-"3	LINE	0
-	    return 1;
-|3,0,3,1,1,0,1592141597,"    return 1;"
-"4	LINE	0
-	    printf("Enter two numbers: ");
-|3,0,4,1,1,0,1592068244,"    printf(\"Enter two numbers: \");"
-"5	LINE	0
-	    int a;
-	    int b;
-|3,0,5,1,2,0,1592068243,"    int a;","    int b;"
-"6	LINE	0
-	    scanf("%d%d", &a, &b);
-|3,0,6,1,1,0,1592068242,"    scanf(\"%d%d\", &a, &b);"
-"7	LINE	0
 	
-	sudo apt-get install curl clang libicu-dev git libatomic1 libicu60 libxml2 libcurl4 zlib1g-dev libbsd0 tzdata libssl-dev libsqlite3-dev libblocksruntime-dev libncurses5-dev libdispatch-dev -y
-|3,0,7,1,2,0,1591983622,"","sudo apt-get install curl clang libicu-dev git libatomic1 libicu60 libxml2 libcurl4 zlib1g-dev libbsd0 tzdata libssl-dev libsqlite3-dev libblocksruntime-dev libncurses5-dev libdispatch-dev -y"
+	print(g);
+|3,0,2,1,2,0,1610550316,"","print(g);"
+"3	LINE	0
+	b = int(input("Enter num: "));
+	g = k(4, b);
+|3,0,3,1,2,0,1610550315,"b = int(input(\"Enter num: \"));","g = k(4, b);"
+"4	LINE	0
+	    return m * 2;
+	
+|3,0,4,1,2,0,1610550315,"    return m * 2;",""
+"5	LINE	0
+	    else:
+	        m = p(-a);
+|3,0,5,1,2,0,1610550315,"    else:","        m = p(-a);"
+"6	LINE	0
+	    if a > 10:
+	        m = p(a);
+|3,0,6,1,2,0,1610550315,"    if a > 10:","        m = p(a);"
+"7	LINE	0
+	def k(x,y):
+	    a = x * y;
+|3,0,7,1,2,0,1610550315,"def k(x,y):","    a = x * y;"
 "8	LINE	0
-	    @property (readonly) NSString *name;
-|3,0,8,1,1,0,1591917151,"    @property (readonly) NSString *name;"
+	    return p;
+	
+|3,0,8,1,2,0,1610550315,"    return p;",""
 "9	LINE	0
-	#import <Foundation/Foundation.h>
-|3,0,9,1,1,0,1591916979,"#import <Foundation/Foundation.h>"
+	def p(r):
+	    p = 2 * r;
+|3,0,9,1,2,0,1610550314,"def p(r):","    p = 2 * r;"
+"l	CHAR	0
+	www
+|3,0,21,0,1,0,1603846229,"www"
 ""-	CHAR	0
-	*
-|3,1,36,0,1,0,1592842263,"*"
+	i
+|3,1,36,0,1,0,1610558952,"i"
 
 # File marks:
-'0  146  0  ~/.dircolors
-|4,48,146,0,1592854858,"~/.dircolors"
-'1  1  0  ~/.profile
-|4,49,1,0,1592854848,"~/.profile"
-'2  1  0  ~/SETUP_NEW_WSL
-|4,50,1,0,1592854799,"~/SETUP_NEW_WSL"
-'3  15  0  ~/.bashrc
-|4,51,15,0,1592854780,"~/.bashrc"
-'4  29  0  ~/SETUP_NEW_WSL
-|4,52,29,0,1592854640,"~/SETUP_NEW_WSL"
-'5  29  0  ~/SETUP_NEW_WSL
-|4,53,29,0,1592854640,"~/SETUP_NEW_WSL"
-'6  1  0  ~/update
-|4,54,1,0,1592854623,"~/update"
-'7  1  0  ~/random
-|4,55,1,0,1592854599,"~/random"
-'8  5  0  /mnt/c/Users/roott/Documents/C++/c_lang/cDataLib/README.md
-|4,56,5,0,1592854277,"/mnt/c/Users/roott/Documents/C++/c_lang/cDataLib/README.md"
-'9  2  73  /mnt/c/Users/roott/Documents/C++/c_lang/cAutomations/README.md
-|4,57,2,73,1592843163,"/mnt/c/Users/roott/Documents/C++/c_lang/cAutomations/README.md"
+'0  104  3  ~/.vim/vim-meta5/meta5.vim
+|4,48,104,3,1610558954,"~/.vim/vim-meta5/meta5.vim"
+'1  103  0  /mnt/c/Users/roott/Documents/C++/work/setup-wsl/.vim/vim-meta5/meta5.vim
+|4,49,103,0,1610558950,"/mnt/c/Users/roott/Documents/C++/work/setup-wsl/.vim/vim-meta5/meta5.vim"
+'2  1  0  ~/.vim/README.md
+|4,50,1,0,1610558868,"~/.vim/README.md"
+'3  1  0  ~/.vimrc
+|4,51,1,0,1610554273,"~/.vimrc"
+'4  1  0  ~/random
+|4,52,1,0,1610554264,"~/random"
+'5  2  3  ~/test.py
+|4,53,2,3,1610550752,"~/test.py"
+'6  2  3  ~/test.py
+|4,54,2,3,1610550383,"~/test.py"
+'7  2  3  ~/test.py
+|4,55,2,3,1610550370,"~/test.py"
+'8  2  3  ~/test.py
+|4,56,2,3,1610550370,"~/test.py"
+'9  1  4  ~/test.py
+|4,57,1,4,1610550365,"~/test.py"
 
 # Jumplist (newest first):
--'  146  0  ~/.dircolors
-|4,39,146,0,1592854858,"~/.dircolors"
--'  1  0  ~/.dircolors
-|4,39,1,0,1592854853,"~/.dircolors"
--'  1  0  ~/.profile
-|4,39,1,0,1592854848,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1592854848,"~/.profile"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854799,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854799,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854799,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854799,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854790,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854790,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854790,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854790,"~/SETUP_NEW_WSL"
--'  15  0  ~/.bashrc
-|4,39,15,0,1592854780,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1592854780,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1592854780,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1592854780,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1592854780,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1592854780,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1592854780,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1592854780,"~/.bashrc"
--'  127  0  ~/.bashrc
-|4,39,127,0,1592854769,"~/.bashrc"
--'  127  0  ~/.bashrc
-|4,39,127,0,1592854769,"~/.bashrc"
--'  127  0  ~/.bashrc
-|4,39,127,0,1592854769,"~/.bashrc"
--'  127  0  ~/.bashrc
-|4,39,127,0,1592854769,"~/.bashrc"
--'  127  0  ~/.bashrc
-|4,39,127,0,1592854769,"~/.bashrc"
--'  127  0  ~/.bashrc
-|4,39,127,0,1592854769,"~/.bashrc"
--'  127  0  ~/.bashrc
-|4,39,127,0,1592854769,"~/.bashrc"
--'  127  0  ~/.bashrc
-|4,39,127,0,1592854769,"~/.bashrc"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854640,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854640,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854640,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854640,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854640,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854640,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854640,"~/SETUP_NEW_WSL"
--'  29  0  ~/SETUP_NEW_WSL
-|4,39,29,0,1592854640,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854625,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854625,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854625,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854625,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854625,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854625,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854625,"~/SETUP_NEW_WSL"
--'  1  0  ~/SETUP_NEW_WSL
-|4,39,1,0,1592854625,"~/SETUP_NEW_WSL"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
--'  1  0  ~/update
-|4,39,1,0,1592854623,"~/update"
+-'  104  3  ~/.vim/vim-meta5/meta5.vim
+|4,39,104,3,1610558954,"~/.vim/vim-meta5/meta5.vim"
+-'  103  0  /mnt/c/Users/roott/Documents/C++/work/setup-wsl/.vim/vim-meta5/meta5.vim
+|4,39,103,0,1610558950,"/mnt/c/Users/roott/Documents/C++/work/setup-wsl/.vim/vim-meta5/meta5.vim"
+-'  1  0  /mnt/c/Users/roott/Documents/C++/work/setup-wsl/.vim/vim-meta5/meta5.vim
+|4,39,1,0,1610558899,"/mnt/c/Users/roott/Documents/C++/work/setup-wsl/.vim/vim-meta5/meta5.vim"
+-'  1  0  ~/.vim/vim-meta5/meta5.vim
+|4,39,1,0,1610558874,"~/.vim/vim-meta5/meta5.vim"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1610558868,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1610558868,"~/.vim/README.md"
+-'  1  0  ~/.vim/README.md
+|4,39,1,0,1610558868,"~/.vim/README.md"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1610554273,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1610554273,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1610554273,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1610554273,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1610554273,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1610554273,"~/.vimrc"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
 -'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
--'  1  0  ~/random
-|4,39,1,0,1592854599,"~/random"
+|4,39,1,0,1610554264,"~/random"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550752,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550383,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  2  3  ~/test.py
+|4,39,2,3,1610550370,"~/test.py"
+-'  1  4  ~/test.py
+|4,39,1,4,1610550367,"~/test.py"
+-'  1  4  ~/test.py
+|4,39,1,4,1610550367,"~/test.py"
+-'  1  4  ~/test.py
+|4,39,1,4,1610550367,"~/test.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/.dircolors
-	*	1592854857	0
-	"	146	0
+> ~/.vim/vim-meta5/meta5.vim
+	*	1610558953	0
+	"	104	3
+	^	104	4
+	.	104	4
+	+	104	4
 
-> ~/.profile
-	*	1592854846	0
+> /mnt/c/Users/roott/Documents/C++/work/setup-wsl/.vim/vim-meta5/meta5.vim
+	*	1610558949	0
+	"	103	0
+
+> ~/.vim/README.md
+	*	1610558867	0
 	"	1	0
 
-> ~/SETUP_NEW_WSL
-	*	1592854797	0
-	"	1	0
-
-> ~/.bashrc
-	*	1592854777	0
-	"	15	0
-	^	127	0
-	.	127	0
-	+	135	0
-	+	136	0
-	+	125	0
-	+	127	0
-
-> ~/update
-	*	1592854622	0
+> ~/.vimrc
+	*	1610554270	0
 	"	1	0
 
 > ~/random
-	*	1592854599	0
+	*	1610554261	0
 	"	1	0
 
-> /mnt/c/Users/roott/Documents/C++/c_lang/cDataLib/README.md
-	*	1592854276	0
-	"	5	0
-	^	4	13
-	.	2	77
-	+	2	77
+> ~/test.py
+	*	1610550751	0
+	"	2	3
+	^	2	4
+	.	2	4
+	+	1	30
+	+	1	8
+	+	1	0
+	+	1	21
+	+	2	20
+	+	1	0
+	+	2	4
 
-> /mnt/c/Users/roott/Documents/C++/c_lang/cAutomations/README.md
-	*	1592843160	0
-	"	2	73
-	^	2	74
-	.	2	73
-	+	2	73
+> ~/in
+	*	1610550224	0
+	"	7	0
+	^	7	1
+	.	8	0
+	+	8	0
 
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSpec/examples/prime_factors/prime_factors.c
-	*	1592843068	0
-	"	9	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSpec/examples/simple/report.xml
-	*	1592842920	0
-	"	20	20
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSpec/examples/simple/simple.spec.c
-	*	1592842893	0
-	"	207	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSpec/compile_all
-	*	1592842833	0
-	"	20	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSpec/LICENSE
-	*	1592842799	0
+> ~/.cargo/bin/com
+	*	1610549980	0
 	"	1	0
 
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSpec/LICENCE.txt
-	*	1592842793	0
+> ~/.profile
+	*	1610549966	0
 	"	1	0
 
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSpec/LICEN
-	*	1592842791	0
+> ~/.bashrc
+	*	1610549956	0
+	"	139	0
+	^	79	55
+	.	79	54
+	+	139	0
+	+	137	0
+	+	138	0
+	+	139	0
+	+	70	62
+	+	72	47
+	+	79	54
+
+> /mnt/c/Users/roott/Documents/C++/zircon/FinanceManager/src/C_loader.zc
+	*	1610486400	0
+	"	3	23
+
+> /mnt/c/Users/roott/Documents/C++/zircon/FinanceManager/src/C_aggregator.zc
+	*	1610486387	0
 	"	1	0
 
-> /mnt/c/Users/roott/Documents/C++/c_lang/cLitterBin/headers/litterbin.h
-	*	1592842351	0
-	"	52	0
-	^	321	1
-	.	321	1
-	+	321	1
+> /mnt/c/Users/roott/Documents/C++/zircon/FinanceManager/src/M_bank_account.zc
+	*	1610486381	0
+	"	18	0
 
-> /mnt/c/Users/roott/Documents/C++/c_lang/cLitterBin/src/litterbin.c
-	*	1592842225	0
-	"	407	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_nix/tests/testfp.c
-	*	1592842053	0
-	"	100	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_nix/tests/asmtest.S
-	*	1592842035	0
-	"	20	3
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_nix/include/float.h
-	*	1592841972	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_nix/include/stdarg.h
-	*	1592841962	0
-	"	66	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_nix/include/stdbool.h
-	*	1592841954	0
-	"	11	22
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_nix/include/stddef.h
-	*	1592841926	0
-	"	20	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_win/libtcc/libtcc.h
-	*	1592841882	0
-	"	53	53
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_win/include/malloc.h
-	*	1592841846	0
-	"	181	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/tcc/tcc_win/include/conio.h
-	*	1592841838	0
-	"	345	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/pdpcontest/read_bytes.h
-	*	1592841787	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/pdpcontest/handled_return.h
-	*	1592841779	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/vhdl-projects/fibonacci/fibo_datapath.vhd
-	*	1592841740	0
-	"	20	7
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSuite/examples/test.c
-	*	1592841132	0
-	"	16	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSuite/examples/compile
-	*	1592841082	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSuite/compile
-	*	1592841077	0
-	"	20	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSuite/cDataLib/src/stack/stack.c
-	*	1592841031	0
-	"	58	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cDataLib/cDataLib/src/stack/stack.c
-	*	1592841012	0
-	"	48	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cDataLib/cDataLib/headers/stack/stack.h
-	*	1592840992	0
-	"	70	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSuite/cDataLib/headers/stack/stack.h
-	*	1592840963	0
-	"	9	1
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSuite/cDataLib/src/vector/vector.c
-	*	1592840903	0
-	"	33	4
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSuite/cDataLib/__all.h
-	*	1592840893	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/BAKAP/cSuite.h
-	*	1592840534	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/BAKAP/cS
-	*	1592840532	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/c_lang/BAKAP
-	*	1592840523	0
-	"	4	0
-	^	4	1
-	.	4	0
-	+	4	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/DAA-07-Basic-Graph-Algorithms/cSuite/cDataLib/headers/linked_list/linked_list.h
-	*	1592477041	0
-	"	205	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/DAA-07-Basic-Graph-Algorithms/cSuite/includes.h
-	*	1592476685	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/DAA-07-Basic-Graph-Algorithms/cSuite/cSuite.h
-	*	1592476682	0
+> /mnt/c/Users/roott/Documents/C++/zircon/FinanceManager/src/M_date.zc
+	*	1610485333	0
 	"	2	0
 
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/DAA-07-Basic-Graph-Algorithms/cSuite/cS
-	*	1592476679	0
-	"	1	0
+> /mnt/c/Users/roott/Documents/C++/uoi/python/2020/Assignment/ceelo.py
+	*	1610482538	0
+	"	13	8
+	^	199	46
+	.	199	45
+	+	86	51
+	+	86	53
+	+	71	13
+	+	86	32
+	+	88	4
+	+	80	14
+	+	87	25
+	+	89	16
+	+	136	21
+	+	102	24
+	+	105	26
+	+	116	0
+	+	103	9
+	+	108	27
+	+	108	0
+	+	108	25
+	+	108	32
+	+	110	17
+	+	104	29
+	+	105	4
+	+	106	17
+	+	110	29
+	+	109	17
+	+	108	21
+	+	109	28
+	+	105	0
+	+	119	0
+	+	146	44
+	+	139	0
+	+	141	4
+	+	142	0
+	+	141	0
+	+	142	0
+	+	143	0
+	+	144	57
+	+	146	0
+	+	147	0
+	+	137	0
+	+	138	0
+	+	113	29
+	+	114	29
+	+	115	32
+	+	116	0
+	+	98	0
+	+	100	12
+	+	148	11
+	+	149	3
+	+	39	0
+	+	38	52
+	+	81	25
+	+	82	0
+	+	108	12
+	+	109	8
+	+	112	12
+	+	113	8
+	+	93	20
+	+	95	12
+	+	97	0
+	+	94	0
+	+	51	12
+	+	52	11
+	+	77	16
+	+	75	0
+	+	77	0
+	+	55	18
+	+	120	4
+	+	117	13
+	+	117	0
+	+	120	45
+	+	120	56
+	+	117	0
+	+	120	4
+	+	121	0
+	+	120	38
+	+	121	0
+	+	120	14
+	+	128	35
+	+	133	26
+	+	136	12
+	+	184	53
+	+	186	31
+	+	182	18
+	+	190	0
+	+	188	32
+	+	190	25
+	+	188	29
+	+	190	38
+	+	187	12
+	+	188	31
+	+	190	37
+	+	189	25
+	+	190	0
+	+	188	0
+	+	184	0
+	+	180	0
+	+	199	91
+	+	199	0
+	+	179	26
+	+	177	18
+	+	199	45
 
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/Labs/lab1/Fib3.java
-	*	1592438929	0
-	"	9	20
-	^	9	21
-	.	9	20
-	+	1	23
-	+	2	0
-	+	3	12
-	+	4	34
-	+	10	0
-	+	4	56
-	+	5	48
-	+	6	27
-	+	6	28
-	+	8	19
-	+	10	5
-	+	12	48
-	+	22	0
-	+	12	48
-	+	13	54
-	+	16	53
-	+	14	12
-	+	15	12
-	+	16	12
-	+	15	18
-	+	16	31
-	+	14	31
-	+	15	38
-	+	16	51
-	+	14	51
-	+	18	20
-	+	21	19
-	+	22	5
-	+	44	0
-	+	24	41
-	+	26	47
-	+	30	5
-	+	32	44
-	+	33	61
-	+	28	23
-	+	29	23
-	+	26	10
-	+	28	20
-	+	36	17
-	+	35	13
-	+	36	41
-	+	38	47
-	+	39	63
-	+	40	9
-	+	42	52
-	+	10	0
-	+	8	20
-	+	10	0
-	+	9	20
+> /mnt/c/Users/roott/Documents/C++/uoi/python/2020/Exams/lathos.py
+	*	1610480756	0
+	"	7	12
+	^	7	13
+	.	7	12
+	+	6	8
+	+	8	11
+	+	7	12
 
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/Labs/lab1/Fib2.java
-	*	1592438481	0
-	"	16	27
-	^	16	28
-	.	16	28
-	+	3	12
-	+	4	33
-	+	13	4
-	+	5	33
-	+	4	35
-	+	9	37
-	+	10	38
-	+	12	19
-	+	29	0
-	+	15	44
-	+	28	0
-	+	21	32
-	+	16	28
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/Labs/lab1/Fib1.java
-	*	1592437891	0
-	"	23	0
-	^	18	22
-	.	18	20
-	+	3	19
-	+	4	40
-	+	6	50
-	+	9	44
-	+	13	44
-	+	18	39
-	+	21	64
-	+	12	13
-	+	13	12
-	+	5	25
-	+	18	20
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/Labs/lab1/Fib1.k
-	*	1592437889	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/Labs/lab3/FindZeros.java
-	*	1592437475	0
-	"	83	9
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/Labs/lab3/compile
-	*	1592437464	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/Labs/lab3/Bitonic.java
-	*	1592437449	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/javascript/Express/intro/contact.html
-	*	1592376406	0
-	"	5	0
-
-> /mnt/c/Users/roott/Documents/C++/javascript/Express/intro/app.js
-	*	1592375232	0
-	"	12	0
-	^	12	0
-	.	9	0
-	+	9	0
-
-> /mnt/c/Users/roott/Documents/C++/work/ArtSxedio/server/server.js
-	*	1592375195	0
-	"	9	0
-
-> /mnt/c/Users/roott/Documents/C++/javascript/Express/intro/package.json
-	*	1592374789	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/javascript/Express/intro/package
-	*	1592374787	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/oop-techniques/2020/Assignment1/Hand.java
-	*	1592374012	0
-	"	14	0
-
-> /mnt/c/Users/roott/Documents/C++/javascript/React/hello/src/app.js
-	*	1592331243	0
-	"	6	0
-	^	6	0
-	.	23	0
-	+	20	0
-	+	23	0
-
-> /mnt/c/Users/roott/Documents/C++/work/poker_project/requirements.txt
-	*	1592266472	0
-	"	39	0
-
-> /mnt/c/Users/roott/Documents/C++/work/poker_project/program.c
-	*	1592266464	0
-	"	119	0
-
-> /mnt/c/Users/roott/Documents/C++/work/homepage/index.html
-	*	1592266301	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/work/custom_navbar/index.html
-	*	1592266290	0
-	"	9	0
-
-> /mnt/c/Users/roott/Documents/C++/work/about_page/index.html
-	*	1592266260	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/work/32pdp/part_a.c
-	*	1592266244	0
-	"	44	1
-
-> /mnt/c/Users/roott/Documents/C++/c++/Metaprogramming/Datatypes/LinkedLists/linked_lists.h
-	*	1592266172	0
-	"	151	2
-
-> /mnt/c/Users/roott/Documents/C++/uoi/python/Labs/2019/lab8/stats.py
-	*	1592265394	0
-	"	36	0
-	^	36	0
-	.	36	0
-	+	36	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/python/Labs/2019/lab8/stats.
-	*	1592265385	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Panos/src/dataload/ILoader.java
-	*	1592265350	0
-	"	19	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab7/StringTrie.java
-	*	1592265321	0
-	"	126	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab7/Queue.java
-	*	1592265309	0
-	"	44	8
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab6/Binary Search Tree/BinarySearchTree.java
-	*	1592265298	0
-	"	57	4
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab5/Hash Tables/ChainingHT.java
-	*	1592265269	0
-	"	69	12
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab5/Hash Tables/LinearProbingHT.java
-	*	1592265241	0
-	"	15	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab5/HashMapTest/HashMapTest.java
-	*	1592265225	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab4/IndexMinPQ.java
-	*	1592265210	0
-	"	290	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab4/NaiveIndexMinPQ.java
-	*	1592265185	0
-	"	57	8
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab4/Prim.java
-	*	1592265178	0
-	"	78	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab4/Collection.java
-	*	1592265170	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab3/Stack.java
-	*	1592265161	0
-	"	48	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab3/Stack.
-	*	1592265154	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab3/Calculator.java
-	*	1592265153	0
-	"	31	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab2/ListUnionFind.java
-	*	1592265143	0
-	"	211	0
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab1/WordList.java
-	*	1592265098	0
-	"	265	5
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/lab1/WordList.
-	*	1592264878	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/erlang/quicksort.erl
-	*	1592263301	0
-	"	22	0
-	^	22	0
-	.	20	17
-	+	19	67
-	+	20	17
-
-> /mnt/c/Users/roott/Documents/C++/deno/install_deno
-	*	1592246471	0
-	"	3	53
-	^	3	54
-	.	3	49
-	+	2	0
-	+	3	49
-
-> /mnt/c/Users/roott/Documents/C++/wsl_setup
-	*	1592246457	0
-	"	31	4
-	^	31	5
-	.	31	4
-	+	79	4
-	+	60	0
-	+	63	4
-	+	83	4
-	+	28	0
-	+	31	4
-
-> /mnt/c/Users/roott/Documents/C++/w
-	*	1592246446	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/elixir/recursion.ex
-	*	1592220386	0
-	"	20	4
-
-> /mnt/c/Users/roott/Documents/C++/erlang/tail_recursion.erl
-	*	1592220361	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/erlang/t
-	*	1592220359	0
-	"	1	0
-
-> /mnt/c/Users/roott/Documents/C++/ocaml/memoization.ml
-	*	1592220301	0
-	"	16	31
-	^	16	32
-	.	16	32
-	+	16	32
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/Labs/lab1/FindZeros.java
-	*	1592214063	0
-	"	53	4
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/DAA-02-Complexity/linear_search.c
-	*	1592142241	0
-	"	3	23
-	^	3	24
-	.	3	23
-	+	1	21
-	+	3	40
-	+	7	4
-	+	7	24
-	+	3	33
-	+	7	69
-	+	7	95
-	+	7	76
-	+	7	89
-	+	8	14
-	+	5	43
-	+	7	41
-	+	8	33
-	+	10	16
-	+	13	16
-	+	14	26
-	+	14	64
-	+	16	4
-	+	17	31
-	+	18	12
-	+	14	44
-	+	15	13
-	+	17	26
-	+	18	54
-	+	20	10
-	+	21	62
-	+	18	49
-	+	21	56
-	+	18	47
-	+	21	55
-	+	15	13
-	+	8	21
-	+	15	13
-	+	7	45
-	+	7	60
-	+	7	28
-	+	5	22
-	+	7	40
-	+	14	42
-	+	3	26
-	+	5	17
-	+	6	0
-	+	7	0
-	+	8	4
-	+	7	45
-	+	7	54
-	+	3	23
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/DAA-02-Complexity/wilson.c
-	*	1592141656	0
-	"	10	16
-	^	10	17
-	.	10	16
-	+	1	21
-	+	2	0
-	+	8	20
-	+	9	6
-	+	2	0
-	+	3	0
-	+	3	17
-	+	6	12
-	+	9	39
-	+	10	16
-	+	13	16
-	+	16	19
-	+	17	28
-	+	19	10
-	+	20	36
-	+	17	17
-	+	14	16
-	+	15	0
-	+	16	16
-	+	9	26
-	+	20	38
-	+	17	28
-	+	20	32
-	+	14	19
-	+	10	16
-	+	8	16
-	+	4	24
-	+	6	0
-	+	9	25
-	+	10	16
-
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/_base.h
-	*	1592141224	0
-	"	12	5
-	^	12	6
-	.	12	5
+> /mnt/c/Users/roott/Documents/C++/uoi/python/2020/Exams/test.py
+	*	1610480232	0
+	"	9	45
+	^	9	46
+	.	9	45
+	+	3	37
+	+	3	11
+	+	3	36
+	+	10	6
+	+	3	11
 	+	10	14
-	+	1	18
-	+	3	0
-	+	12	5
+	+	4	23
+	+	10	25
+	+	3	15
+	+	4	14
+	+	10	57
+	+	4	0
+	+	4	10
+	+	10	0
+	+	10	29
+	+	7	25
+	+	9	33
+	+	10	0
+	+	8	8
+	+	6	13
+	+	7	18
+	+	9	37
+	+	7	20
+	+	6	12
+	+	9	45
 
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/vector.h
-	*	1592141180	0
+> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/2020/Labs/lab3/Bitonic.java
+	*	1610479676	0
+	"	17	5
+
+> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/2020/Labs/lab1/Fib1.java
+	*	1610479635	0
+	"	2	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/prolog/2020/Lab4.pro
+	*	1610479556	0
+	"	89	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/haskell/2020/Lab2.hs
+	*	1610479492	0
 	"	1	0
 
-> /mnt/c/Users/roott/Documents/C++/c_lang/cSuite/tests/test_unit_test.c
-	*	1592075731	0
+> /mnt/c/Users/roott/Documents/C++/kotlin/jcompile
+	*	1610476629	0
 	"	1	0
 
-> /mnt/c/Users/roott/Documents/C++/uoi/java/Algorithms/mainmain.c
-	*	1592074324	0
+> /mnt/c/Users/roott/Documents/C++/kotlin/compile
+	*	1610476539	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/comp
+	*	1610476537	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/run
+	*	1610476510	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/filtering.kt
+	*	1610476506	0
+	"	8	1
+
+> /mnt/c/Users/roott/Documents/C++/typescript/class_inheritance.ts
+	*	1610396918	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/typescript/ambients.ts
+	*	1610396912	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/typescript/ambients.d.ts
+	*	1610396908	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/haskell/hello.hs
+	*	1610396717	0
+	"	1	28
+
+> /mnt/c/Users/roott/Documents/C++/TFH/TheFriendlyHacker.py
+	*	1610364896	0
+	"	20	1
+
+> /mnt/c/Users/roott/Documents/C++/TFH/hexdump.py
+	*	1610364887	0
+	"	1	0
+
+> ~/test.c
+	*	1610362782	0
 	"	6	0
-	^	5	22
-	.	5	21
+	^	7	23
+	.	7	21
 	+	1	18
-	+	2	19
-	+	8	16
-	+	10	21
-	+	14	20
-	+	11	18
-	+	12	18
-	+	13	18
-	+	14	21
-	+	16	41
-	+	17	33
-	+	4	32
-	+	5	21
+	+	3	16
+	+	7	30
+	+	8	19
+	+	9	26
+	+	9	12
+	+	7	18
+	+	9	0
+	+	4	24
+	+	7	21
+
+> /mnt/c/Users/roott/Documents/C++/ruby/Progs/Hacking/Module2/Cryptography/SHA1_SHA2.rb
+	*	1610308174	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> /mnt/c/Users/roott/Documents/C++/uoi/c_lang/2020/Labs/lab7/Makefile
+	*	1610305617	0
+	"	1	0
+
+> ~/.zshrc
+	*	1610305165	0
+	"	206	0
+	^	195	0
+	.	194	0
+	+	194	0
+
+> /mnt/c/Users/roott/Documents/C++/smalltalk/hello.st
+	*	1609692395	0
+	"	10	14
+
+> /mnt/c/Users/roott/Documents/C++/smalltalk/install_smalltalk
+	*	1609692355	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/zshrc
+	*	1609692301	0
+	"	145	1
+	^	145	2
+	.	145	1
+	+	207	0
+	+	207	29
+	+	145	0
+	+	146	0
+	+	145	1
+
+> /mnt/c/Users/roott/Documents/C++/.zhr
+	*	1609692216	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/.bashrc
+	*	1609692109	0
+	"	1	0
+
+> ~/turnin
+	*	1609691685	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/python/2020/Assignment/Makefile
+	*	1609508747	0
+	"	10	2
+	^	10	3
+	.	10	2
+	+	10	2
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/concurency/actors.kt
+	*	1608999816	0
+	"	77	9
+	^	65	91
+	.	66	0
+	+	63	29
+	+	66	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/octave/2020/Labs/lab1/Ask2.m
+	*	1608898464	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/octave/2020/Labs/lab1/Ask1.m
+	*	1608898460	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/datamodel/buildingblocks/Document.java
+	*	1608833601	0
+	"	33	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/datamodel/buildingblocks/StyleEnum.java
+	*	1608833556	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/datamodel/buildingblocks/FormatEnum.java
+	*	1608833532	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/datamodel/rules/RuleUndefined.java
+	*	1608764933	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/datamodel/rules/RuleStartWith.java
+	*	1608764889	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/datamodel/rules/RuleInPosition.java
+	*	1608764834	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/datamodel/rules/RuleAllCaps.java
+	*	1608764801	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/datamodel/buildingblocks/LineBlock.java
+	*	1608764686	0
+	"	135	5
+
+> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/2019/hashing_visualizer.zc
+	*	1608735426	0
+	"	20	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/2019/Exams/10-Hashing/hashtable_linear_probing.zc
+	*	1608735409	0
+	"	137	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/java/DataStructures/2019/Exams/10-Hashing/LinearHTNode.zc
+	*	1608735402	0
+	"	15	4
+
+> /mnt/c/Users/roott/Documents/C++/uoi/c_lang/2020/Proodos2/proodospetrakis.c
+	*	1608722588	0
+	"	10	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/c_lang/2020/Proodos2/proodoseirini.c
+	*	1608722570	0
+	"	36	0
+	^	19	27
+	.	19	26
+	+	6	18
+	+	19	26
+
+> /mnt/c/Users/roott/Documents/C++/uoi/c_lang/2020/Proodos2/proodos.c
+	*	1608722557	0
+	"	24	0
+	^	59	5
+	.	59	0
+	+	94	15
+	+	94	21
+	+	94	15
+	+	97	0
+	+	94	19
+	+	94	16
+	+	66	19
+	+	20	29
+	+	60	0
+	+	17	11
+	+	18	4
+	+	17	13
+	+	60	44
+	+	60	33
+	+	60	21
+	+	21	4
+	+	71	43
+	+	71	0
+	+	60	18
+	+	71	0
+	+	60	0
+	+	23	35
+	+	17	16
+	+	64	0
+	+	67	0
+	+	69	50
+	+	70	32
+	+	17	15
+	+	69	32
+	+	17	14
+	+	69	8
+	+	17	15
+	+	94	16
+	+	80	23
+	+	84	39
+	+	92	0
+	+	80	23
+	+	80	38
+	+	84	43
+	+	92	0
+	+	80	40
+	+	88	19
+	+	89	29
+	+	78	0
+	+	79	16
+	+	79	27
+	+	84	35
+	+	88	1
+	+	92	1
+	+	80	45
+	+	79	0
+	+	80	23
+	+	83	19
+	+	88	0
+	+	92	0
+	+	83	13
+	+	88	13
+	+	82	0
+	+	87	0
+	+	90	24
+	+	85	27
+	+	86	25
+	+	91	23
+	+	84	34
+	+	83	27
+	+	85	7
+	+	86	33
+	+	86	29
+	+	85	4
+	+	86	4
+	+	87	0
+	+	83	26
+	+	97	18
+	+	94	5
+	+	94	1
+	+	93	0
+	+	94	48
+	+	97	0
+	+	96	20
+	+	11	1
+	+	11	19
+	+	110	19
+	+	94	0
+	+	112	34
+	+	112	27
+	+	112	28
+	+	112	18
+	+	112	0
+	+	110	16
+	+	95	4
+	+	84	33
+	+	79	25
+	+	11	0
+	+	10	19
+	+	11	0
+	+	6	16
+	+	11	0
+	+	4	23
+	+	4	21
+	+	59	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/c_lang/2020/Proodos2/proodosxontros.c
+	*	1608722549	0
+	"	37	0
+
+> /mnt/c/Users/roott/Documents/C++/crystal/grip/README.md
+	*	1608713795	0
+	"	2	0
+
+> /mnt/c/Users/roott/Documents/C++/crystal/crystal-di/src/di/container_mixin.cr
+	*	1608713763	0
+	"	1	6
+
+> /mnt/c/Users/roott/Documents/C++/crystal/crystal-di/src/di.cr
+	*	1608713754	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/crystal/crystal-di/src/di/auto_inject.cr
+	*	1608713749	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/crystal/crystal-di/src/di/ay
+	*	1608713747	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/files/ParagraphWriter.java
+	*	1608683301	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/files/StartWriter.java
+	*	1608683230	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/files/BothWriter.java
+	*	1608682916	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/files/GeneralWriter.java
+	*	1608682805	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/exporters/PdfExporter.java
+	*	1608678921	0
+	"	34	2
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/exporters/MarkdownExporter.java
+	*	1608676303	0
+	"	21	2
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/files/WriteHandler.java
+	*	1608675400	0
+	"	82	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/reporter/Reporter.java
+	*	1608675165	0
+	"	51	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/dataload/RawFileLineLoader.java
+	*	1608674391	0
+	"	104	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/files/ReadHandler.java
+	*	1608672484	0
+	"	63	5
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/ThanKost/4333_4392_TextProcessor/src/test/TestEngine.java
+	*	1608647477	0
+	"	218	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/ThanKost/4333_4392_TextProcessor/src/datamodel/buildingblocks/LineBlock.java
+	*	1608647466	0
+	"	20	3
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/ThanKost/4333_4392_TextProcessor/src/client/MainEngineClient.java
+	*	1608647456	0
+	"	108	12
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Xaris/4646_4674_TextProcessor/src/datamodel/buildingblocks/Document.java
+	*	1608647427	0
+	"	20	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Xaris/4646_4674_TextProcessor/src/client/main.java
+	*	1608647413	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Nimas/4437_4447_4620_TextProcessor/src/client/Client.java
+	*	1608647393	0
+	"	58	16
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Petrakis/src/client/mainEngine.java
+	*	1608647360	0
+	"	60	6
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/client/MainClient.java
+	*	1608647342	0
+	"	103	1
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Vivian/src/client/C
+	*	1608552930	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/uoi/java/Panos/2020/project/.project
+	*	1608494606	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/gradle/build.gradle
+	*	1608490086	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/it.kt
+	*	1608489977	0
+	"	13	6
+	^	13	7
+	.	13	0
+	+	12	21
+	+	13	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/it
+	*	1608489864	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/testKotlinProject/gradle.properties
+	*	1608489799	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/testKotlinProject/gradle.r
+	*	1608489797	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/testKotlinProject/settings.gradle.kts
+	*	1608489791	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/testKotlinProject/build/kotlin/compileKotlin/build-history.bin
+	*	1608489781	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/kotlin/testKotlinProject/src/main/kotlin/main.kt
+	*	1608489688	0
+	"	1	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Petrakis/src/dataload/RawFileLineLoader.java
+	*	1608479531	0
+	"	29	28
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Petrakis/src/exporters/PdfExporter.java
+	*	1608479495	0
+	"	11	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Petrakis/src/exporters/MarkdownExporter.java
+	*	1608479471	0
+	"	97	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Nimas/4437_4447_4620_TextProcessor/src/dataload/RawFileLineLoader.java
+	*	1608477761	0
+	"	63	8
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/ThanKost/4333_4392_TextProcessor/Resources/SampleDocs/hippocratesOath.txt
+	*	1608477670	0
+	"	17	0
+
+> /mnt/c/Users/roott/Documents/C++/work/Panos/Nimas/4437_4447_4620_TextProcessor/src/exporters/PdfExporter.java
+	*	1608466313	0
+	"	74	16

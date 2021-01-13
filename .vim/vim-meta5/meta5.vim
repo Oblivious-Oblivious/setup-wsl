@@ -27,7 +27,7 @@ endif
 " General colors
 hi Cursor         guifg=#000000 guibg=#d0d0d0 ctermfg=0 ctermbg=252
 hi NonText        guifg=#5f5fff ctermfg=63
-hi Normal         guifg=#bcbcbc guibg=#1c1c1c ctermfg=250 ctermbg=233
+"hi Normal         guifg=#bcbcbc guibg=#1c1c1c ctermfg=250 ctermbg=233
 hi CursorLineNr   guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE
 hi colorColumn    guibg=#000080 ctermbg=4
 hi Directory      guifg=#00ffff guibg=NONE ctermfg=14 ctermbg=NONE
@@ -46,15 +46,15 @@ hi WarningMsg     guifg=#afffff ctermfg=159
 " Syntax highlighting
 hi Comment        guifg=#808080 ctermfg=244
 hi Todo           guifg=#00ffff guibg=#606060 gui=bold ctermfg=6 ctermbg=239 cterm=bold
-hi Boolean        guifg=#87ff5f gui=bold ctermfg=119 cterm=bold
+hi Boolean        guifg=#ff7edb gui=bold ctermfg=119 cterm=bold
 hi Conditional    guifg=#5fdfff ctermfg=81
 hi String         guifg=#0087df ctermfg=32
 hi Character      guifg=#0087ff ctermfg=33
 hi Identifier     guifg=#00afff ctermfg=39
-hi Function       guifg=#df8700 ctermfg=172
+hi Function       guifg=#fede5d ctermfg=172
 hi Type           guifg=#87dfff gui=NONE ctermfg=117
 hi Typedef        guifg=#87dfff gui=bold ctermfg=117 cterm=bold
-hi StorageClass   guifg=#87ff5f ctermfg=119
+hi StorageClass   guifg=#ff7edb ctermfg=119
 hi Structure      guifg=#01dfdf ctermfg=44
 hi Label          guifg=#5f87ff ctermfg=69
 hi Statement      guifg=#5fdfff gui=NONE ctermfg=81
@@ -62,12 +62,13 @@ hi Repeat         guifg=#afdfff gui=bold ctermfg=153 cterm=bold
 hi Exception      guifg=#afdfff gui=bold ctermfg=153 cterm=bold
 hi Operator       guifg=#8787ff ctermfg=105
 hi Keyword        guifg=#dfffff guibg=NONE gui=bold ctermfg=195 ctermbg=NONE  cterm=bold
-hi Constant       guifg=#af5fff ctermfg=195
-hi Number         guifg=#5fdf5f ctermfg=77
-hi Special        guifg=#5fdf5f gui=bold ctermfg=77 cterm=bold
+" hi Constant       guifg=#af5fff ctermfg=195
+hi Constant       guifg=#af5fff ctermfg=152
+hi Number         guifg=#ff7edb ctermfg=77
+hi Special        guifg=#ff7edb gui=bold ctermfg=77 cterm=bold
 hi PreCondit      guifg=#005faf ctermfg=25
 hi PreProc        guifg=#00afff ctermfg=39
-hi Define         guifg=#ff8700 ctermfg=208
+hi Define         guifg=#fede5d ctermfg=208
 
 
 
