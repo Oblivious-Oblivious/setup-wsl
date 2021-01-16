@@ -117,20 +117,7 @@ export PATH=$PATH:/mnt/c/Windows/
 export PATH=$PATH:/mnt/c/Users/roott/AppData/Local/Programs/Microsoft\ VS\ Code
 export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Microsoft/Edge/Application
 
-# GoLang
-export GOROOT=/root/.go
-export PATH=$GOROOT/bin:$PATH
-export GOPATH=/root/go
-export PATH=$GOPATH/bin:$PATH
-
 export DENO_INSTALL="/root/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 export DISPLAY=:0
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-#export SDKMAN_DIR="/root/.sdkman"
-#[[ -s "/root/.sdkman/bin/sdkman-init.sh" ]] && source "/root/.sdkman/bin/sdkman-init.sh"
-
-#export PATH=/usr/share/swift/usr/bin:/root/.cargo/bin:/root/go/bin:/root/.go/bin:/usr/lib/dart/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/c/Windows/:/mnt/c/Users/roott/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/Microsoft/Edge/Application
-#export PATH=/usr/share/swift/usr/bin:/root/.cargo/bin:/root/go/bin:/root/.go/bin:/usr/lib/dart/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/c/Windows/:/mnt/c/Users/roott/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/Microsoft/Edge/Application
