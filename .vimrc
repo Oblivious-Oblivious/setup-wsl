@@ -12,8 +12,8 @@ endtry
 source ~/.vim/vim-meta5/meta5.vim
 
 
-autocmd FileType ruby set shiftwidth=4
-autocmd FileType scala set shiftwidth=4
+autocmd FileType ruby set shiftwidth=2
+autocmd FileType scala set shiftwidth=2
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
 

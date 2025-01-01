@@ -111,13 +111,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-export PATH=/usr/lib/dart/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-export PATH=$PATH:/mnt/c/Windows/
-export PATH=$PATH:/mnt/c/Users/roott/AppData/Local/Programs/Microsoft\ VS\ Code
-export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Microsoft/Edge/Application
-
-export DENO_INSTALL="/root/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
-
-export DISPLAY=:0
